@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+
+  accounts:
+    image: aishbank/accounts
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    networks:
+      - aishbank-network
+    
+  loans:
+    image: aishbank/loans
+    mem_limit: 700m
+    ports:
+      - "8090:8090"
+    networks:
+      - aishbank-network
+    
+  cards:
+    image: aishbank/cards
+    mem_limit: 700m
+    ports:
+      - "9000:9000"
+    networks:
+      - aishbank-network
+    
+networks:
+  aishbank-network:

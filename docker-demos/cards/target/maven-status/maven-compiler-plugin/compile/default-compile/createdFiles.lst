@@ -1,0 +1,5 @@
+com\eazybytes\cards\model\Cards.class
+com\eazybytes\cards\model\Customer.class
+com\eazybytes\cards\controller\CardsController.class
+com\eazybytes\cards\CardsApplication.class
+com\eazybytes\cards\repository\CardsRepository.class

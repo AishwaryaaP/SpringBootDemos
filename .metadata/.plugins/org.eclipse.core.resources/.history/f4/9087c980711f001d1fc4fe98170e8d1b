@@ -1,0 +1,5 @@
+package com.ezybytes.accounts.feignclients;
+
+public class CardsFeignClient {
+
+}

@@ -1,0 +1,12 @@
+package com.example.demo.contollers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class HelloController {
+
+	@GetMapping("/api/helo")
+	public String hello()
+	{
+		return "Hii From the Service Side";
+	}
+}

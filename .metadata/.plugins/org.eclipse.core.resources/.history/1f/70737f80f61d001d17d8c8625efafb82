@@ -1,0 +1,6 @@
+package com.eazybytes.accounts;
+
+public class AccountServiceConfig {
+	
+
+}
